@@ -7,8 +7,8 @@ package programming2020;
 public class ActivitySelection {
 /**
  * Consider the following 6 activities sorted by finish time.
- start[]  =  {1, 3, 0, 5, 8, 5};
- finish[] =  {2, 4, 6, 7, 9, 9}
+ start{}  =  {1, 3, 0, 5, 8, 5};
+ finish{} =  {2, 4, 6, 7, 9, 9}
 
  */
 
@@ -17,3 +17,4 @@ public class ActivitySelection {
 
 
 }
+
