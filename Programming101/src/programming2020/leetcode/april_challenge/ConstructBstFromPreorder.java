@@ -33,14 +33,12 @@ public class ConstructBstFromPreorder {
 
     public Node createBst(int preorder[], int min, int max){
         if(index >= preorder.length || preorder[index]<min || preorder[index]> max){
-            index --;
             return null;
         }
 
         Node node = new Node(preorder[index]);
         index++;
         node.left = createBst(preorder,min, node.data);
-        index++;
         node.right = createBst(preorder,node.data, max);
 
         return node;
