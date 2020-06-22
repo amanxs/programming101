@@ -16,6 +16,7 @@ public class InorderSuccessor {
 
         public TreeNode succ(TreeNode root, TreeNode p, TreeNode parent){
             if(root.val == p.val){
+
                 if(null != root.right){
                     TreeNode curr = root.right;
                     while(null != curr.left){
