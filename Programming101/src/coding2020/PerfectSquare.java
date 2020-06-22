@@ -50,6 +50,8 @@ public class PerfectSquare {
     public static boolean isPerfectSquare(int num) {
         int low =1;
         int high = num;
+        long x =1;
+        int a = (int) x;
         while(low<=high){
             int m = low + (high-low)/2;
             int msq = m*m;
