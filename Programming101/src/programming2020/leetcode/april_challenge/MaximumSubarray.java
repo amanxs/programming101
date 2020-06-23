@@ -12,6 +12,7 @@ public class MaximumSubarray {
         int curr_sum = 0;
         int max_sum = nums[0];
         for(int num : nums){
+
             curr_sum = Math.max(curr_sum+ num, num);
             max_sum = Math.max(max_sum, curr_sum);
 
