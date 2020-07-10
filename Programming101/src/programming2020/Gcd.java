@@ -7,7 +7,7 @@ public class Gcd {
      * @param args
      */
     public static void main(String args[]){
-        int gcd = gcd(38, 24);
+        int gcd = gcd(4, 2);
         System.out.println(gcd);
     }
 
